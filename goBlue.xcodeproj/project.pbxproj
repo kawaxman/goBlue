@@ -26,7 +26,6 @@
 		BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */; };
 		BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAB81D1F07100001470B /* profileViewController.swift */; };
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
-		BFF1FABD1D24A75A0001470B /* testCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABC1D24A75A0001470B /* testCollectionViewCell.swift */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +97,6 @@
 		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
-		BFF1FABC1D24A75A0001470B /* testCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testCollectionViewCell.swift; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,7 +168,6 @@
 				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
 				BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */,
 				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
-				BFF1FABC1D24A75A0001470B /* testCollectionViewCell.swift */,
 				BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */,
 				BFF1FAB81D1F07100001470B /* profileViewController.swift */,
 				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
@@ -357,7 +354,6 @@
 				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
 				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
 				BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */,
-				BFF1FABD1D24A75A0001470B /* testCollectionViewCell.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
 				BFB7A65D1CFD38150002B92E /* OurViewController1.swift in Sources */,
 			);
