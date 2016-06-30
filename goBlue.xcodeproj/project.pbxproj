@@ -26,7 +26,6 @@
 		BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */; };
 		BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAB81D1F07100001470B /* profileViewController.swift */; };
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
-		BFF1FABF1D24AA330001470B /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABE1D24AA330001470B /* test2ViewController.swift */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +97,6 @@
 		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
-		BFF1FABE1D24AA330001470B /* test2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,7 +165,6 @@
 				BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */,
 				BFB680D41CFBE16100E68019 /* Info.plist */,
 				BFB680F71CFBE17D00E68019 /* NewsViewController.swift */,
-				BFF1FABE1D24AA330001470B /* test2ViewController.swift */,
 				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
 				BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */,
 				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
@@ -355,7 +352,6 @@
 				BFB7A66E1CFE07930002B92E /* mapViewNavigationController.swift in Sources */,
 				BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */,
 				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
-				BFF1FABF1D24AA330001470B /* test2ViewController.swift in Sources */,
 				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
 				BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
