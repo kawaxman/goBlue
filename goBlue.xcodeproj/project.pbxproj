@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF97BF371D0DAB9000B4E632 /* CleanupMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */; };
+		BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF381D10810200B4E632 /* AppDelegate.swift */; };
+		BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */; };
+		BF97C0811D11ECB400B4E632 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BF97C0801D11ECB400B4E632 /* Podfile */; };
+		BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB680CF1CFBE16100E68019 /* Assets.xcassets */; };
+		BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */; };
+		BFB680DE1CFBE16100E68019 /* goBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB680DD1CFBE16100E68019 /* goBlueTests.swift */; };
+		BFB680E91CFBE16100E68019 /* goBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB680E81CFBE16100E68019 /* goBlueUITests.swift */; };
+		BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB680F71CFBE17D00E68019 /* NewsViewController.swift */; };
+		BFB680FB1CFBE19B00E68019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB680FA1CFBE19B00E68019 /* Main.storyboard */; };
+		BFB7A65D1CFD38150002B92E /* OurViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A65C1CFD38150002B92E /* OurViewController1.swift */; };
+		BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A6611CFD3B050002B92E /* SWRevealViewController.m */; };
+		BFB7A66E1CFE07930002B92E /* mapViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */; };
+		BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */; };
+		BFD23BD41CFBE6D50062806B /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD23BD31CFBE6D50062806B /* Mapbox.framework */; };
+		BFD23BD51CFBE6D50062806B /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFD23BD31CFBE6D50062806B /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */; };
+		BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAB81D1F07100001470B /* profileViewController.swift */; };
+		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
+		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB680DA1CFBE16100E68019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB680BD1CFBE16100E68019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB680C41CFBE16100E68019;
+			remoteInfo = goBlue;
+		};
+		BFB680E51CFBE16100E68019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB680BD1CFBE16100E68019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB680C41CFBE16100E68019;
+			remoteInfo = goBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFD23BD61CFBE6D50062806B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFD23BD51CFBE6D50062806B /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDD11211CFCDB5000F526D7 /* Cope Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Cope Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupMapViewController.swift; sourceTree = "<group>"; };
+		BF97BF381D10810200B4E632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = ../PopoverViewController.swift; sourceTree = "<group>"; };
+		BF97C0801D11ECB400B4E632 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BFB680C51CFBE16100E68019 /* goBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB680CF1CFBE16100E68019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB680D21CFBE16100E68019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB680D41CFBE16100E68019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB680D91CFBE16100E68019 /* goBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB680DD1CFBE16100E68019 /* goBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goBlueTests.swift; sourceTree = "<group>"; };
+		BFB680DF1CFBE16100E68019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB680E41CFBE16100E68019 /* goBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB680E81CFBE16100E68019 /* goBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goBlueUITests.swift; sourceTree = "<group>"; };
+		BFB680EA1CFBE16100E68019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB680F71CFBE17D00E68019 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		BFB680FA1CFBE19B00E68019 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFB7A65C1CFD38150002B92E /* OurViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController1.swift; sourceTree = "<group>"; };
+		BFB7A65E1CFD3B050002B92E /* goBlue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goBlue-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFB7A6601CFD3B050002B92E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BFB7A6611CFD3B050002B92E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewNavigationController.swift; sourceTree = "<group>"; };
+		BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BFD23BD31CFBE6D50062806B /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../Mapbox.framework; sourceTree = "<group>"; };
+		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
+		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB680C21CFBE16100E68019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD23BD41CFBE6D50062806B /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680D61CFBE16100E68019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680E11CFBE16100E68019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF97BF741D1082A800B4E632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB680BC1CFBE16100E68019 = {
+			isa = PBXGroup;
+			children = (
+				BF97C0801D11ECB400B4E632 /* Podfile */,
+				BFB680C71CFBE16100E68019 /* goBlue */,
+				BFB680DC1CFBE16100E68019 /* goBlueTests */,
+				BFB680E71CFBE16100E68019 /* goBlueUITests */,
+				BFB680C61CFBE16100E68019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB680C61CFBE16100E68019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB680C51CFBE16100E68019 /* goBlue.app */,
+				BFB680D91CFBE16100E68019 /* goBlueTests.xctest */,
+				BFB680E41CFBE16100E68019 /* goBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB680C71CFBE16100E68019 /* goBlue */ = {
+			isa = PBXGroup;
+			children = (
+				BFD23BD31CFBE6D50062806B /* Mapbox.framework */,
+				BF97BF741D1082A800B4E632 /* Frameworks */,
+				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
+				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
+				BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */,
+				BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */,
+				BFB680D41CFBE16100E68019 /* Info.plist */,
+				BFB680F71CFBE17D00E68019 /* NewsViewController.swift */,
+				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
+				BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */,
+				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
+				BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */,
+				BFF1FAB81D1F07100001470B /* profileViewController.swift */,
+				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
+				BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */,
+				BFB7A65C1CFD38150002B92E /* OurViewController1.swift */,
+				BFB680CF1CFBE16100E68019 /* Assets.xcassets */,
+				BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */,
+			);
+			path = goBlue;
+			sourceTree = "<group>";
+		};
+		BFB680DC1CFBE16100E68019 /* goBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB680DD1CFBE16100E68019 /* goBlueTests.swift */,
+				BFB680DF1CFBE16100E68019 /* Info.plist */,
+			);
+			path = goBlueTests;
+			sourceTree = "<group>";
+		};
+		BFB680E71CFBE16100E68019 /* goBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB680E81CFBE16100E68019 /* goBlueUITests.swift */,
+				BFB680EA1CFBE16100E68019 /* Info.plist */,
+			);
+			path = goBlueUITests;
+			sourceTree = "<group>";
+		};
+		BFB7A6571CFD33750002B92E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFB7A6601CFD3B050002B92E /* SWRevealViewController.h */,
+				BFB7A6611CFD3B050002B92E /* SWRevealViewController.m */,
+				BFB7A65E1CFD3B050002B92E /* goBlue-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB680C41CFBE16100E68019 /* goBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB680ED1CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlue" */;
+			buildPhases = (
+				BFB680C11CFBE16100E68019 /* Sources */,
+				BFB680C21CFBE16100E68019 /* Frameworks */,
+				BFB680C31CFBE16100E68019 /* Resources */,
+				BFD23BD61CFBE6D50062806B /* Embed Frameworks */,
+				BFDD11211CFCDB5000F526D7 /* Cope Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goBlue;
+			productName = goBlue;
+			productReference = BFB680C51CFBE16100E68019 /* goBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB680D81CFBE16100E68019 /* goBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB680F01CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlueTests" */;
+			buildPhases = (
+				BFB680D51CFBE16100E68019 /* Sources */,
+				BFB680D61CFBE16100E68019 /* Frameworks */,
+				BFB680D71CFBE16100E68019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB680DB1CFBE16100E68019 /* PBXTargetDependency */,
+			);
+			name = goBlueTests;
+			productName = goBlueTests;
+			productReference = BFB680D91CFBE16100E68019 /* goBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB680E31CFBE16100E68019 /* goBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB680F31CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlueUITests" */;
+			buildPhases = (
+				BFB680E01CFBE16100E68019 /* Sources */,
+				BFB680E11CFBE16100E68019 /* Frameworks */,
+				BFB680E21CFBE16100E68019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB680E61CFBE16100E68019 /* PBXTargetDependency */,
+			);
+			name = goBlueUITests;
+			productName = goBlueUITests;
+			productReference = BFB680E41CFBE16100E68019 /* goBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB680BD1CFBE16100E68019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kent Waxman";
+				TargetAttributes = {
+					BFB680C41CFBE16100E68019 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C84239R398;
+					};
+					BFB680D81CFBE16100E68019 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C84239R398;
+						TestTargetID = BFB680C41CFBE16100E68019;
+					};
+					BFB680E31CFBE16100E68019 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C84239R398;
+						TestTargetID = BFB680C41CFBE16100E68019;
+					};
+				};
+			};
+			buildConfigurationList = BFB680C01CFBE16100E68019 /* Build configuration list for PBXProject "goBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB680BC1CFBE16100E68019;
+			productRefGroup = BFB680C61CFBE16100E68019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB680C41CFBE16100E68019 /* goBlue */,
+				BFB680D81CFBE16100E68019 /* goBlueTests */,
+				BFB680E31CFBE16100E68019 /* goBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB680C31CFBE16100E68019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB680FB1CFBE19B00E68019 /* Main.storyboard in Resources */,
+				BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */,
+				BF97C0811D11ECB400B4E632 /* Podfile in Resources */,
+				BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680D71CFBE16100E68019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680E21CFBE16100E68019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB680C11CFBE16100E68019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */,
+				BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */,
+				BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */,
+				BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */,
+				BF97BF371D0DAB9000B4E632 /* CleanupMapViewController.swift in Sources */,
+				BFB7A66E1CFE07930002B92E /* mapViewNavigationController.swift in Sources */,
+				BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */,
+				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
+				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
+				BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */,
+				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
+				BFB7A65D1CFD38150002B92E /* OurViewController1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680D51CFBE16100E68019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB680DE1CFBE16100E68019 /* goBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB680E01CFBE16100E68019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB680E91CFBE16100E68019 /* goBlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB680DB1CFBE16100E68019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB680C41CFBE16100E68019 /* goBlue */;
+			targetProxy = BFB680DA1CFBE16100E68019 /* PBXContainerItemProxy */;
+		};
+		BFB680E61CFBE16100E68019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB680C41CFBE16100E68019 /* goBlue */;
+			targetProxy = BFB680E51CFBE16100E68019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB680D21CFBE16100E68019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB680EB1CFBE16100E68019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB680EC1CFBE16100E68019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB680EE1CFBE16100E68019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/goBlue",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = goBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "goBlue/SWRevealViewController/goBlue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB680EF1CFBE16100E68019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/goBlue",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = goBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "goBlue/SWRevealViewController/goBlue-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BFB680F11CFBE16100E68019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = goBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goBlue.app/goBlue";
+			};
+			name = Debug;
+		};
+		BFB680F21CFBE16100E68019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = goBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goBlue.app/goBlue";
+			};
+			name = Release;
+		};
+		BFB680F41CFBE16100E68019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = goBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFB680F51CFBE16100E68019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = goBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kentwaxman.goBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB680C01CFBE16100E68019 /* Build configuration list for PBXProject "goBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB680EB1CFBE16100E68019 /* Debug */,
+				BFB680EC1CFBE16100E68019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB680ED1CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB680EE1CFBE16100E68019 /* Debug */,
+				BFB680EF1CFBE16100E68019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB680F01CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB680F11CFBE16100E68019 /* Debug */,
+				BFB680F21CFBE16100E68019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB680F31CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB680F41CFBE16100E68019 /* Debug */,
+				BFB680F51CFBE16100E68019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB680BD1CFBE16100E68019 /* Project object */;
+}
