@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF97BF371D0DAB9000B4E632 /* CleanupMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */; };
+		BF97BF371D0DAB9000B4E632 /* CleanupMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */; };
 		BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF381D10810200B4E632 /* AppDelegate.swift */; };
 		BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */; };
 		BF97C0811D11ECB400B4E632 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BF97C0801D11ECB400B4E632 /* Podfile */; };
@@ -17,15 +17,17 @@
 		BFB680E91CFBE16100E68019 /* goBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB680E81CFBE16100E68019 /* goBlueUITests.swift */; };
 		BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB680F71CFBE17D00E68019 /* NewsViewController.swift */; };
 		BFB680FB1CFBE19B00E68019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB680FA1CFBE19B00E68019 /* Main.storyboard */; };
-		BFB7A65D1CFD38150002B92E /* OurViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A65C1CFD38150002B92E /* OurViewController1.swift */; };
+		BFB7A65D1CFD38150002B92E /* cleanupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A65C1CFD38150002B92E /* cleanupViewController.swift */; };
 		BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A6611CFD3B050002B92E /* SWRevealViewController.m */; };
 		BFB7A66E1CFE07930002B92E /* mapViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */; };
-		BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */; };
+		BFD23BCD1CFBE5EB0062806B /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BCC1CFBE5EB0062806B /* MapViewViewController.swift */; };
 		BFD23BD41CFBE6D50062806B /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD23BD31CFBE6D50062806B /* Mapbox.framework */; };
 		BFD23BD51CFBE6D50062806B /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFD23BD31CFBE6D50062806B /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */; };
 		BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAB81D1F07100001470B /* profileViewController.swift */; };
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
+		BFF1FAC51D24BC880001470B /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAC41D24BC880001470B /* mapViewController.swift */; };
+		BFF1FAC81D24CB9B0001470B /* ambassadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,9 +73,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupMapViewController.swift; sourceTree = "<group>"; };
+		BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupMapViewViewController.swift; sourceTree = "<group>"; };
 		BF97BF381D10810200B4E632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = ../PopoverViewController.swift; sourceTree = "<group>"; };
+		BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = ../../PopoverViewController.swift; sourceTree = "<group>"; };
 		BF97C0801D11ECB400B4E632 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		BFB680C51CFBE16100E68019 /* goBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB680CF1CFBE16100E68019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,16 +89,18 @@
 		BFB680EA1CFBE16100E68019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB680F71CFBE17D00E68019 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		BFB680FA1CFBE19B00E68019 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		BFB7A65C1CFD38150002B92E /* OurViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController1.swift; sourceTree = "<group>"; };
+		BFB7A65C1CFD38150002B92E /* cleanupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupViewController.swift; sourceTree = "<group>"; };
 		BFB7A65E1CFD3B050002B92E /* goBlue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goBlue-Bridging-Header.h"; sourceTree = "<group>"; };
 		BFB7A6601CFD3B050002B92E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BFB7A6611CFD3B050002B92E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mapViewNavigationController.swift; path = ../mapViewNavigationController.swift; sourceTree = "<group>"; };
-		BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		BFD23BCC1CFBE5EB0062806B /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewViewController.swift; path = ../MapViewViewController.swift; sourceTree = "<group>"; };
 		BFD23BD31CFBE6D50062806B /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../Mapbox.framework; sourceTree = "<group>"; };
 		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFF1FAC41D24BC880001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ambassadorViewController.swift; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +143,8 @@
 				BF97C0801D11ECB400B4E632 /* Podfile */,
 				BFB680C71CFBE16100E68019 /* goBlue */,
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
-				BFB680E71CFBE16100E68019 /* goBlueUITests */,
 				BFB680C61CFBE16100E68019 /* Products */,
+				BFB680E71CFBE16100E68019 /* goBlueUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,15 +165,13 @@
 				BF97BF741D1082A800B4E632 /* Frameworks */,
 				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
 				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
-				BF97BF361D0DAB9000B4E632 /* CleanupMapViewController.swift */,
 				BFF1FAC01D24B0EA0001470B /* Cleanup */,
 				BFF1FAC11D24B1200001470B /* Local Areas */,
 				BFF1FAC21D24B1430001470B /* News */,
-				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
-				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
-				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
 				BFF1FAC31D24B1690001470B /* Profile */,
-				BFB7A65C1CFD38150002B92E /* OurViewController1.swift */,
+				BFF1FAC61D24CB660001470B /* Ambassador */,
+				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
+				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
 				BFB680D41CFBE16100E68019 /* Info.plist */,
 				BFB680CF1CFBE16100E68019 /* Assets.xcassets */,
 				BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */,
@@ -208,6 +210,8 @@
 		BFF1FAC01D24B0EA0001470B /* Cleanup */ = {
 			isa = PBXGroup;
 			children = (
+				BFB7A65C1CFD38150002B92E /* cleanupViewController.swift */,
+				BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */,
 				BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */,
 			);
 			name = Cleanup;
@@ -216,7 +220,9 @@
 		BFF1FAC11D24B1200001470B /* Local Areas */ = {
 			isa = PBXGroup;
 			children = (
-				BFD23BCC1CFBE5EB0062806B /* MapViewController.swift */,
+				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
+				BFD23BCC1CFBE5EB0062806B /* MapViewViewController.swift */,
+				BFF1FAC41D24BC880001470B /* mapViewController.swift */,
 				BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */,
 			);
 			name = "Local Areas";
@@ -238,6 +244,14 @@
 				BFF1FAB81D1F07100001470B /* profileViewController.swift */,
 			);
 			name = Profile;
+			sourceTree = "<group>";
+		};
+		BFF1FAC61D24CB660001470B /* Ambassador */ = {
+			isa = PBXGroup;
+			children = (
+				BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */,
+			);
+			name = Ambassador;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,14 +395,16 @@
 				BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */,
 				BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */,
 				BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */,
-				BF97BF371D0DAB9000B4E632 /* CleanupMapViewController.swift in Sources */,
+				BF97BF371D0DAB9000B4E632 /* CleanupMapViewViewController.swift in Sources */,
 				BFB7A66E1CFE07930002B92E /* mapViewNavigationController.swift in Sources */,
 				BFD23BDA1CFCC32A0062806B /* NewsTableViewCell.swift in Sources */,
+				BFF1FAC81D24CB9B0001470B /* ambassadorViewController.swift in Sources */,
 				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
+				BFF1FAC51D24BC880001470B /* mapViewController.swift in Sources */,
 				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
-				BFD23BCD1CFBE5EB0062806B /* MapViewController.swift in Sources */,
+				BFD23BCD1CFBE5EB0062806B /* MapViewViewController.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
-				BFB7A65D1CFD38150002B92E /* OurViewController1.swift in Sources */,
+				BFB7A65D1CFD38150002B92E /* cleanupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

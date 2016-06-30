@@ -9,9 +9,10 @@
 import UIKit
 import Mapbox
 
-class CleanupMapViewController: UIViewController, MGLMapViewDelegate {
+class CleanupMapViewViewController: UIViewController, MGLMapViewDelegate {
 
     @IBOutlet var mapView: MGLMapView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

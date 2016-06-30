@@ -39,7 +39,7 @@
         <!--Delegate-->
         <scene sceneID="1Vo-zd-nno">
             <objects>
-                <viewController storyboardIdentifier="mapView" id="caK-GR-Fmc" customClass="MapViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapView" id="caK-GR-Fmc" customClass="MapViewViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="URe-72-wTo"/>
                         <viewControllerLayoutGuide type="bottom" id="V8N-r5-zq3"/>
@@ -537,10 +537,10 @@
             </objects>
             <point key="canvasLocation" x="3983" y="386"/>
         </scene>
-        <!--Our View Controller1-->
+        <!--Cleanup View Controller-->
         <scene sceneID="vr1-Wt-m7J">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="W6u-UO-WeQ" customClass="OurViewController1" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="W6u-UO-WeQ" customClass="cleanupViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pHT-WU-ULo"/>
                         <viewControllerLayoutGuide type="bottom" id="Wtx-Gn-ifh"/>
@@ -555,43 +555,14 @@
                                     <segue destination="AsH-Yo-Tre" kind="embed" id="3N8-hm-XuC"/>
                                 </connections>
                             </containerView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NDn-VD-HgS">
-                                <rect key="frame" x="0.0" y="375" width="600" height="205"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="205" id="KUR-Ep-YA5"/>
-                                </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Wx6-8j-sku">
-                                    <size key="itemSize" width="311.5" height="152"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cleanupCell" reuseIdentifier="cleanupCell" id="aF4-ZV-exu" customClass="cleanupCollectionViewCell" customModule="goBlue" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="26.5" width="311.5" height="152"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="311.5" height="152"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <color key="backgroundColor" red="0.12117084703947369" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NDn-VD-HgS" firstAttribute="leading" secondItem="HEX-ew-mxC" secondAttribute="leading" id="94E-ex-K9C"/>
-                            <constraint firstAttribute="trailing" secondItem="NDn-VD-HgS" secondAttribute="trailing" id="EtN-F3-WkA"/>
-                            <constraint firstItem="NDn-VD-HgS" firstAttribute="top" secondItem="sF9-qO-ZRk" secondAttribute="bottom" constant="19" id="Hzf-2I-sId"/>
                             <constraint firstItem="sF9-qO-ZRk" firstAttribute="top" secondItem="pHT-WU-ULo" secondAttribute="bottom" id="NRi-Tb-Egg"/>
-                            <constraint firstItem="NDn-VD-HgS" firstAttribute="leading" secondItem="HEX-ew-mxC" secondAttribute="leading" id="PWt-Hg-vCX"/>
-                            <constraint firstItem="NDn-VD-HgS" firstAttribute="leading" secondItem="sF9-qO-ZRk" secondAttribute="leading" id="eCM-EY-Qqc"/>
-                            <constraint firstAttribute="trailing" secondItem="NDn-VD-HgS" secondAttribute="trailing" id="f8u-CI-p2D"/>
-                            <constraint firstAttribute="bottom" secondItem="NDn-VD-HgS" secondAttribute="bottom" constant="20" symbolic="YES" id="k5o-Nm-vZS"/>
-                            <constraint firstItem="NDn-VD-HgS" firstAttribute="trailing" secondItem="sF9-qO-ZRk" secondAttribute="trailing" id="qjr-Lo-naz"/>
+                            <constraint firstItem="sF9-qO-ZRk" firstAttribute="leading" secondItem="HEX-ew-mxC" secondAttribute="leading" id="PD3-HM-IYH"/>
+                            <constraint firstAttribute="trailing" secondItem="sF9-qO-ZRk" secondAttribute="trailing" id="eh0-zR-Emb"/>
+                            <constraint firstItem="Wtx-Gn-ifh" firstAttribute="top" secondItem="sF9-qO-ZRk" secondAttribute="bottom" constant="244" id="wDr-FW-aUS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TJ2-ZE-Lg5">
@@ -600,18 +571,17 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="collectionView" destination="NDn-VD-HgS" id="xzS-2A-9wE"/>
-                        <outlet property="menuButton" destination="q9W-vd-Zdx" id="L9D-uO-0bg"/>
+                        <outlet property="menuButton" destination="q9W-vd-Zdx" id="dxp-N5-nSh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ln5-bY-CEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3228" y="-349"/>
         </scene>
-        <!--Our View Controller1-->
+        <!--Ambassador View Controller-->
         <scene sceneID="eN3-UE-c2i">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="7Hd-te-TQ9" customClass="OurViewController1" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="7Hd-te-TQ9" customClass="ambassadorViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="829-mD-rN1"/>
                         <viewControllerLayoutGuide type="bottom" id="1Zn-nh-I84"/>
@@ -628,7 +598,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="B1s-hp-sW3" id="VJ3-H9-NaW"/>
+                        <outlet property="menuButton" destination="B1s-hp-sW3" id="MVQ-nT-UhN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I1R-kA-jC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -680,7 +650,7 @@
         <!--goBlue-->
         <scene sceneID="TS1-ww-0q8">
             <objects>
-                <viewController title="goBlue" extendedLayoutIncludesOpaqueBars="YES" id="eFJ-xP-T2z" customClass="OurViewController1" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="goBlue" extendedLayoutIncludesOpaqueBars="YES" id="eFJ-xP-T2z" customClass="NewsViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t56-fX-k0K"/>
                         <viewControllerLayoutGuide type="bottom" id="CVz-Jf-GoS"/>
@@ -706,7 +676,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="Kyg-IC-1T1" id="tcE-mR-zE3"/>
+                        <outlet property="menuButton" destination="Kyg-IC-1T1" id="unC-eK-Jv6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zn6-AC-Sm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1086,7 +1056,7 @@
         <!--Local Areas-->
         <scene sceneID="idt-tf-hsA">
             <objects>
-                <navigationController id="hsy-bx-Fk6" sceneMemberID="viewController">
+                <navigationController id="hsy-bx-Fk6" customClass="mapViewNavigationController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Local Areas" image="mapIcon" selectedImage="mapIcon" id="uBJ-YW-G7C"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
@@ -1103,10 +1073,10 @@
             </objects>
             <point key="canvasLocation" x="2164" y="2111"/>
         </scene>
-        <!--Our View Controller1-->
+        <!--Map View Controller-->
         <scene sceneID="lYX-5W-Z5M">
             <objects>
-                <viewController storyboardIdentifier="mapRootView" extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="OurViewController1" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapRootView" extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="mapViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFr-gq-EIc"/>
                         <viewControllerLayoutGuide type="bottom" id="pa0-DG-9at"/>
@@ -1131,7 +1101,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="fBe-Kd-dHs" id="wfy-zk-YNa"/>
+                        <outlet property="menuButton" destination="fBe-Kd-dHs" id="TMp-qH-oWC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umq-kl-apu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1141,7 +1111,7 @@
         <!--Delegate-->
         <scene sceneID="yOG-VS-6hv">
             <objects>
-                <viewController id="AsH-Yo-Tre" customClass="CleanupMapViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AsH-Yo-Tre" customClass="CleanupMapViewViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lVg-UZ-eaY"/>
                         <viewControllerLayoutGuide type="bottom" id="gNj-wl-tfF"/>
@@ -1179,7 +1149,7 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="mapView" destination="afn-7a-qWF" id="dkJ-Ic-1nm"/>
+                        <outlet property="mapView" destination="afn-7a-qWF" id="l1B-cI-pa7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tn5-ae-CAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1280,6 +1250,6 @@
         <image name="whiteX" width="70" height="70"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3wP-Y4-Zhs"/>
+        <segue reference="q2U-Vc-Tsv"/>
     </inferredMetricsTieBreakers>
 </document>
