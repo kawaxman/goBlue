@@ -99,9 +99,8 @@
 		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
-		BFF1FAC41D24BC880001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mapViewController.swift; path = ../mapViewController.swift; sourceTree = "<group>"; };
+		BFF1FAC41D24BC880001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ambassadorViewController.swift; sourceTree = "<group>"; };
-		BFF1FACB1D260D540001470B /* goBlue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = goBlue.ttf; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +140,6 @@
 		BFB680BC1CFBE16100E68019 = {
 			isa = PBXGroup;
 			children = (
-				BFF1FACB1D260D540001470B /* goBlue.ttf */,
 				BF97C0801D11ECB400B4E632 /* Podfile */,
 				BFB680C71CFBE16100E68019 /* goBlue */,
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
@@ -222,9 +220,9 @@
 		BFF1FAC11D24B1200001470B /* Local Areas */ = {
 			isa = PBXGroup;
 			children = (
-				BFF1FAC41D24BC880001470B /* mapViewController.swift */,
 				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
 				BFD23BCC1CFBE5EB0062806B /* MapViewViewController.swift */,
+				BFF1FAC41D24BC880001470B /* mapViewController.swift */,
 				BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */,
 			);
 			name = "Local Areas";

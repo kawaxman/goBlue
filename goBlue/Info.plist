@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>goBlue.ttf</string>
-	</array>
 	<key>MGLMapboxAccessToken</key>
 	<string>pk.eyJ1Ijoia2F3YXhtYW4iLCJhIjoiY2lvNXJwMzluMDIwcnY2a3FqOHA5NmlhcCJ9.8eczrhBHu5QV9aq1-JO2CQ</string>
 	<key>CFBundleDevelopmentRegion</key>
