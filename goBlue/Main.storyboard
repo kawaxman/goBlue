@@ -1149,10 +1149,10 @@
             </objects>
             <point key="canvasLocation" x="2164" y="2111"/>
         </scene>
-        <!--Map View Controller-->
+        <!--View Controller-->
         <scene sceneID="lYX-5W-Z5M">
             <objects>
-                <viewController storyboardIdentifier="mapRootView" extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="mapViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapRootView" extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFr-gq-EIc"/>
                         <viewControllerLayoutGuide type="bottom" id="pa0-DG-9at"/>
