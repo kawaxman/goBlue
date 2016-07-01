@@ -86,7 +86,7 @@
         <!--Delegate-->
         <scene sceneID="1Vo-zd-nno">
             <objects>
-                <viewController storyboardIdentifier="mapView" id="caK-GR-Fmc" customClass="MapViewViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="caK-GR-Fmc" customClass="MapViewViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="URe-72-wTo"/>
                         <viewControllerLayoutGuide type="bottom" id="V8N-r5-zq3"/>
@@ -1147,12 +1147,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="USu-wY-3O7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2164" y="2111"/>
+            <point key="canvasLocation" x="2154" y="2146"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="lYX-5W-Z5M">
             <objects>
-                <viewController storyboardIdentifier="mapRootView" extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="mapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFr-gq-EIc"/>
                         <viewControllerLayoutGuide type="bottom" id="pa0-DG-9at"/>
