@@ -30,6 +30,9 @@ class NewsViewController: UIViewController, UITableViewDataSource {
             //Cleanup CollectionView
             
         }
+        //navigation bar
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarPosition: .Any, barMetrics: .Default)
+        navigationController?.navigationBar.shadowImage = UIImage()
         
         self.loadNews()
     }

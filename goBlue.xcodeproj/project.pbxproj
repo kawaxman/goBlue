@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B95C4BD9E83A098754D446 /* Pods_goBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309E8267AD5A9C054DF531E7 /* Pods_goBlue.framework */; };
 		BF97BF371D0DAB9000B4E632 /* CleanupMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */; };
 		BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF381D10810200B4E632 /* AppDelegate.swift */; };
 		BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */; };
@@ -27,6 +28,9 @@
 		BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAB81D1F07100001470B /* profileViewController.swift */; };
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
 		BFF1FAC81D24CB9B0001470B /* ambassadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */; };
+		BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FACC1D26C9CD0001470B /* mapViewController.swift */; };
+		BFF1FACF1D26CBBC0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */; };
+		BFF1FAD21D26CBE40001470B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAD11D26CBE40001470B /* loginViewController.swift */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,10 +76,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		309E8267AD5A9C054DF531E7 /* Pods_goBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2E2D161FBDD7BD3C30BDD2 /* Pods-goBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-goBlue/Pods-goBlue.release.xcconfig"; sourceTree = "<group>"; };
+		6B98A31C7C292A109C78E283 /* Pods-goBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goBlue/Pods-goBlue.debug.xcconfig"; sourceTree = "<group>"; };
 		BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupMapViewViewController.swift; sourceTree = "<group>"; };
 		BF97BF381D10810200B4E632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = ../../PopoverViewController.swift; sourceTree = "<group>"; };
-		BF97C0801D11ECB400B4E632 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BF97C0801D11ECB400B4E632 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFB680C51CFBE16100E68019 /* goBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB680CF1CFBE16100E68019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB680D21CFBE16100E68019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,9 +105,11 @@
 		BFD23BD91CFCC32A0062806B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BFF1FAB81D1F07100001470B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cleanupCollectionViewCell.swift; sourceTree = "<group>"; };
-		BFF1FAC41D24BC880001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mapViewController.swift; path = ../mapViewController.swift; sourceTree = "<group>"; };
 		BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ambassadorViewController.swift; sourceTree = "<group>"; };
 		BFF1FACB1D260D540001470B /* goBlue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = goBlue.ttf; sourceTree = "<group>"; };
+		BFF1FACC1D26C9CD0001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
+		BFF1FAD11D26CBE40001470B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD23BD41CFBE6D50062806B /* Mapbox.framework in Frameworks */,
+				76B95C4BD9E83A098754D446 /* Pods_goBlue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +156,8 @@
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
 				BFB680C61CFBE16100E68019 /* Products */,
 				BFB680E71CFBE16100E68019 /* goBlueUITests */,
+				E8A020508B14A3B3EEA1C8A3 /* Pods */,
+				F9A5E60CBAA84C299988B7DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,10 +174,11 @@
 		BFB680C71CFBE16100E68019 /* goBlue */ = {
 			isa = PBXGroup;
 			children = (
+				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
+				BFF1FAD01D26CBD90001470B /* Login */,
 				BFD23BD31CFBE6D50062806B /* Mapbox.framework */,
 				BF97BF741D1082A800B4E632 /* Frameworks */,
 				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
-				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
 				BFF1FAC01D24B0EA0001470B /* Cleanup */,
 				BFF1FAC11D24B1200001470B /* Local Areas */,
 				BFF1FAC21D24B1430001470B /* News */,
@@ -173,6 +186,7 @@
 				BFF1FAC61D24CB660001470B /* Ambassador */,
 				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
 				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
+				BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */,
 				BFB680D41CFBE16100E68019 /* Info.plist */,
 				BFB680CF1CFBE16100E68019 /* Assets.xcassets */,
 				BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */,
@@ -221,7 +235,7 @@
 		BFF1FAC11D24B1200001470B /* Local Areas */ = {
 			isa = PBXGroup;
 			children = (
-				BFF1FAC41D24BC880001470B /* mapViewController.swift */,
+				BFF1FACC1D26C9CD0001470B /* mapViewController.swift */,
 				BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */,
 				BFD23BCC1CFBE5EB0062806B /* MapViewViewController.swift */,
 				BFB7A66D1CFE07930002B92E /* mapViewNavigationController.swift */,
@@ -255,6 +269,31 @@
 			name = Ambassador;
 			sourceTree = "<group>";
 		};
+		BFF1FAD01D26CBD90001470B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BFF1FAD11D26CBE40001470B /* loginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E8A020508B14A3B3EEA1C8A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B98A31C7C292A109C78E283 /* Pods-goBlue.debug.xcconfig */,
+				4B2E2D161FBDD7BD3C30BDD2 /* Pods-goBlue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9A5E60CBAA84C299988B7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				309E8267AD5A9C054DF531E7 /* Pods_goBlue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,11 +301,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFB680ED1CFBE16100E68019 /* Build configuration list for PBXNativeTarget "goBlue" */;
 			buildPhases = (
+				6F2472B3B1EC5EE14A031947 /* 📦 Check Pods Manifest.lock */,
 				BFB680C11CFBE16100E68019 /* Sources */,
 				BFB680C21CFBE16100E68019 /* Frameworks */,
 				BFB680C31CFBE16100E68019 /* Resources */,
 				BFD23BD61CFBE6D50062806B /* Embed Frameworks */,
 				BFDD11211CFCDB5000F526D7 /* Cope Framework */,
+				A9E2E363BE23B83141379FF3 /* 📦 Embed Pods Frameworks */,
+				D7E705CC1617DCAA0FDCE740 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,6 +410,7 @@
 				BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */,
 				BF97C0811D11ECB400B4E632 /* Podfile in Resources */,
 				BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */,
+				BFF1FACF1D26CBBC0001470B /* loginGoBlue.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +430,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F2472B3B1EC5EE14A031947 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E2E363BE23B83141379FF3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goBlue/Pods-goBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E705CC1617DCAA0FDCE740 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goBlue/Pods-goBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFB680C11CFBE16100E68019 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -403,8 +494,10 @@
 				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
 				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
 				BFD23BCD1CFBE5EB0062806B /* MapViewViewController.swift in Sources */,
+				BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
 				BFB7A65D1CFD38150002B92E /* cleanupViewController.swift in Sources */,
+				BFF1FAD21D26CBE40001470B /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +629,7 @@
 		};
 		BFB680EE1CFBE16100E68019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B98A31C7C292A109C78E283 /* Pods-goBlue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -557,6 +651,7 @@
 		};
 		BFB680EF1CFBE16100E68019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2E2D161FBDD7BD3C30BDD2 /* Pods-goBlue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

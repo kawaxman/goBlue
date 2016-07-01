@@ -1152,7 +1152,7 @@
         <!--Map View Controller-->
         <scene sceneID="lYX-5W-Z5M">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="mapViewController" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="VEF-Bm-aXY" customClass="mapViewController" customModule="goBlue" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OFr-gq-EIc"/>
                         <viewControllerLayoutGuide type="bottom" id="pa0-DG-9at"/>
@@ -1177,7 +1177,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="fBe-Kd-dHs" id="TMp-qH-oWC"/>
+                        <outlet property="menuButton" destination="fBe-Kd-dHs" id="xSF-jq-pho"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umq-kl-apu" userLabel="First Responder" sceneMemberID="firstResponder"/>

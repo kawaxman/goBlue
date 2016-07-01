@@ -23,9 +23,9 @@ class cleanupViewController: UIViewController{
             menuButton.target=self.revealViewController()
             menuButton.action="revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-            
-        
-            
         }
+        //navigation bar
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarPosition: .Any, barMetrics: .Default)
+        navigationController?.navigationBar.shadowImage = UIImage()
     }
 }

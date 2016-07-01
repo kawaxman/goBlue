@@ -1,5 +1,5 @@
 //
-//  ambassadorViewController.swift
+//  mapViewController.swift
 //  goBlue
 //
 //  Created by School on 6/29/16.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ambassadorViewController: UIViewController {
+class mapViewController: UIViewController {
 
+   
     @IBOutlet weak var menuButton: UIBarButtonItem!
-  
-    
-    
-    let backgroundColor = UIColor(red: 247/255, green: 247/255, blue: 247/255, alpha: 1)
-    
-    
+
     override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let backgroundColor = UIColor(red: 247/255, green: 247/255, blue: 247/255, alpha: 1)
+        
         self.view.backgroundColor = backgroundColor
         if self.revealViewController() != nil{
             menuButton.target=self.revealViewController()
@@ -29,6 +29,7 @@ class ambassadorViewController: UIViewController {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarPosition: .Any, barMetrics: .Default)
         navigationController?.navigationBar.shadowImage = UIImage()
     }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

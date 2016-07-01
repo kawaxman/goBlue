@@ -32,6 +32,8 @@ class profileViewController: UIViewController {
         
         
     }
+        
+        //navigation bar
         navigationController?.navigationBar.setBackgroundImage(UIImage(), forBarPosition: .Any, barMetrics: .Default)
         navigationController?.navigationBar.shadowImage = UIImage()
 
