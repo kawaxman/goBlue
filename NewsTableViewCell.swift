@@ -7,10 +7,32 @@
 //
 
 import UIKit
+import Haneke
 
 class NewsTableViewCell: UITableViewCell{
 
-    @IBOutlet var captionLabel:UILabel!
-    @IBOutlet var newsImageView: UIImageView!
+    @IBOutlet var captionLabel: UILabel!
+    @IBOutlet var dogImageView: UIImageView!
+
+    var dog: JSON?{
+        didSet {
+            self.setupDog()
+        }
+    }
+    
+    //stopped at 33:06
+    
+    
+    func setupDog(){
+//        self.captionLabel.text = self.dog?["caption"]["text"].string
+//        if let urlString = self.dog["images"]["standard_resolution"]["url"] {
+//            let url = NSURL(string: urlString)
+//            self.dogImageView.hnk_setImageFromURL(url!)
+//            }
+    }
+    
+    
+    
+    
     
 }

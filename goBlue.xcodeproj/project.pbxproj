@@ -29,8 +29,9 @@
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
 		BFF1FAC81D24CB9B0001470B /* ambassadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */; };
 		BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FACC1D26C9CD0001470B /* mapViewController.swift */; };
-		BFF1FACF1D26CBBC0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */; };
 		BFF1FAD21D26CBE40001470B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAD11D26CBE40001470B /* loginViewController.swift */; };
+		BFF1FADC1D2779CA0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */; };
+		BFF1FAE51D2803A90001470B /* gifFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAE41D2803A90001470B /* gifFramework.swift */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,8 +109,9 @@
 		BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ambassadorViewController.swift; sourceTree = "<group>"; };
 		BFF1FACB1D260D540001470B /* goBlue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = goBlue.ttf; sourceTree = "<group>"; };
 		BFF1FACC1D26C9CD0001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
-		BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
 		BFF1FAD11D26CBE40001470B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
+		BFF1FAE41D2803A90001470B /* gifFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifFramework.swift; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				BFF1FACB1D260D540001470B /* goBlue.ttf */,
+				BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */,
 				BF97C0801D11ECB400B4E632 /* Podfile */,
 				BFB680C71CFBE16100E68019 /* goBlue */,
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
@@ -186,7 +189,6 @@
 				BFF1FAC61D24CB660001470B /* Ambassador */,
 				BFF470871D16E651000FFEB9 /* slideNavViewController.swift */,
 				BFB680FA1CFBE19B00E68019 /* Main.storyboard */,
-				BFF1FACE1D26CBBC0001470B /* loginGoBlue.gif */,
 				BFB680D41CFBE16100E68019 /* Info.plist */,
 				BFB680CF1CFBE16100E68019 /* Assets.xcassets */,
 				BFB680D11CFBE16100E68019 /* LaunchScreen.storyboard */,
@@ -272,6 +274,7 @@
 		BFF1FAD01D26CBD90001470B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				BFF1FAE41D2803A90001470B /* gifFramework.swift */,
 				BFF1FAD11D26CBE40001470B /* loginViewController.swift */,
 			);
 			name = Login;
@@ -410,7 +413,7 @@
 				BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */,
 				BF97C0811D11ECB400B4E632 /* Podfile in Resources */,
 				BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */,
-				BFF1FACF1D26CBBC0001470B /* loginGoBlue.gif in Resources */,
+				BFF1FADC1D2779CA0001470B /* loginGoBlue.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */,
+				BFF1FAE51D2803A90001470B /* gifFramework.swift in Sources */,
 				BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */,
 				BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */,
 				BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */,

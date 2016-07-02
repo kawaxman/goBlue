@@ -7,10 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tXt-ed-sLX">
             <objects>
-                <viewController id="1ND-ST-xBG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginScreen" id="1ND-ST-xBG" customClass="loginViewController" customModule="goBlue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nCG-Qg-XUH"/>
                         <viewControllerLayoutGuide type="bottom" id="kKt-E4-9nI"/>
@@ -518,66 +518,22 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="captionLabel" destination="osr-F5-Ocn" id="Jhb-fv-glo"/>
-                                            <outlet property="newsImageView" destination="8bP-XC-Plc" id="ol0-Sv-O6H"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" rowHeight="320" id="GKZ-uR-DeL" customClass="NewsTableViewCell" customModule="goBlue" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="348" width="600" height="320"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GKZ-uR-DeL" id="Wy8-s8-jpQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="319.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gob-zY-2Zh">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="251"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lD-t3-oV1">
-                                                    <rect key="frame" x="8" y="275" width="592" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.29999999999999999" height="1"/>
-                                        <connections>
-                                            <outlet property="captionLabel" destination="0lD-t3-oV1" id="LTj-Gt-jyv"/>
-                                            <outlet property="newsImageView" destination="gob-zY-2Zh" id="kAU-CU-34q"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="320" id="B9t-cz-PG2" customClass="NewsTableViewCell" customModule="goBlue" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="668" width="600" height="320"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B9t-cz-PG2" id="etm-KW-FE6">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="319.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0mX-cU-w20">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="251"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hv-f8-gtG">
-                                                    <rect key="frame" x="8" y="275" width="592" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="captionLabel" destination="0hv-f8-gtG" id="faT-yY-BRi"/>
-                                            <outlet property="newsImageView" destination="0mX-cU-w20" id="Kc6-m5-p3w"/>
+                                            <outlet property="captionLabel" destination="osr-F5-Ocn" id="pvX-9p-zbD"/>
+                                            <outlet property="dogImageView" destination="8bP-XC-Plc" id="WcC-ms-6nU"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="sbL-01-MmW" id="CZI-S8-FB1"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="AMk-69-eLO"/>
                     <connections>
-                        <outlet property="tableView" destination="2wl-0z-eLS" id="UBU-Wy-vLE"/>
+                        <outlet property="tableView" destination="2wl-0z-eLS" id="fWx-AL-lH8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="raY-iR-dec" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -710,7 +666,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <segue destination="sbL-01-MmW" kind="embed" id="cvI-AI-Pee"/>
+                                    <segue destination="sbL-01-MmW" kind="embed" id="Hf6-cn-mhI"/>
                                 </connections>
                             </containerView>
                         </subviews>
