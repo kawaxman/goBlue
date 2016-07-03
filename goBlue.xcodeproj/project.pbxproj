@@ -29,9 +29,10 @@
 		BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FABA1D2356F40001470B /* cleanupCollectionViewCell.swift */; };
 		BFF1FAC81D24CB9B0001470B /* ambassadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */; };
 		BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FACC1D26C9CD0001470B /* mapViewController.swift */; };
-		BFF1FAD21D26CBE40001470B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAD11D26CBE40001470B /* loginViewController.swift */; };
-		BFF1FADC1D2779CA0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */; };
+		BFF1FAD21D26CBE40001470B /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAD11D26CBE40001470B /* homeScreenViewController.swift */; };
 		BFF1FAE51D2803A90001470B /* gifFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAE41D2803A90001470B /* gifFramework.swift */; };
+		BFF1FAEA1D289B6F0001470B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAE91D289B6F0001470B /* loginViewController.swift */; };
+		BFF1FAF41D28B23C0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -109,9 +110,10 @@
 		BFF1FAC71D24CB9B0001470B /* ambassadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ambassadorViewController.swift; sourceTree = "<group>"; };
 		BFF1FACB1D260D540001470B /* goBlue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = goBlue.ttf; sourceTree = "<group>"; };
 		BFF1FACC1D26C9CD0001470B /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
-		BFF1FAD11D26CBE40001470B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
+		BFF1FAD11D26CBE40001470B /* homeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
 		BFF1FAE41D2803A90001470B /* gifFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifFramework.swift; sourceTree = "<group>"; };
+		BFF1FAE91D289B6F0001470B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				BFF1FACB1D260D540001470B /* goBlue.ttf */,
-				BFF1FADB1D2779CA0001470B /* loginGoBlue.gif */,
+				BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */,
 				BF97C0801D11ECB400B4E632 /* Podfile */,
 				BFB680C71CFBE16100E68019 /* goBlue */,
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
@@ -177,8 +179,9 @@
 		BFB680C71CFBE16100E68019 /* goBlue */ = {
 			isa = PBXGroup;
 			children = (
+				BFF1FAE81D289B5E0001470B /* Login */,
 				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
-				BFF1FAD01D26CBD90001470B /* Login */,
+				BFF1FAD01D26CBD90001470B /* Homescreen */,
 				BFD23BD31CFBE6D50062806B /* Mapbox.framework */,
 				BF97BF741D1082A800B4E632 /* Frameworks */,
 				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
@@ -271,11 +274,19 @@
 			name = Ambassador;
 			sourceTree = "<group>";
 		};
-		BFF1FAD01D26CBD90001470B /* Login */ = {
+		BFF1FAD01D26CBD90001470B /* Homescreen */ = {
 			isa = PBXGroup;
 			children = (
 				BFF1FAE41D2803A90001470B /* gifFramework.swift */,
-				BFF1FAD11D26CBE40001470B /* loginViewController.swift */,
+				BFF1FAD11D26CBE40001470B /* homeScreenViewController.swift */,
+			);
+			name = Homescreen;
+			sourceTree = "<group>";
+		};
+		BFF1FAE81D289B5E0001470B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BFF1FAE91D289B6F0001470B /* loginViewController.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -409,11 +420,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF1FAF41D28B23C0001470B /* loginGoBlue.gif in Resources */,
 				BFB680FB1CFBE19B00E68019 /* Main.storyboard in Resources */,
 				BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */,
 				BF97C0811D11ECB400B4E632 /* Podfile in Resources */,
 				BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */,
-				BFF1FADC1D2779CA0001470B /* loginGoBlue.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +500,7 @@
 				BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */,
 				BFF1FAE51D2803A90001470B /* gifFramework.swift in Sources */,
 				BFF1FABB1D2356F40001470B /* cleanupCollectionViewCell.swift in Sources */,
+				BFF1FAEA1D289B6F0001470B /* loginViewController.swift in Sources */,
 				BFB7A6621CFD3B050002B92E /* SWRevealViewController.m in Sources */,
 				BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */,
 				BF97BF371D0DAB9000B4E632 /* CleanupMapViewViewController.swift in Sources */,
@@ -501,7 +513,7 @@
 				BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
 				BFB7A65D1CFD38150002B92E /* cleanupViewController.swift in Sources */,
-				BFF1FAD21D26CBE40001470B /* loginViewController.swift in Sources */,
+				BFF1FAD21D26CBE40001470B /* homeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
