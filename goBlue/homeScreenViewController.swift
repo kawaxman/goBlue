@@ -13,9 +13,6 @@ import UIKit
 class homeScreenViewController: UIViewController {
     
     let blueColor = UIColor(red: 22/255, green: 62/255, blue: 123/255, alpha: 1)
-
-    
-    
     
     override func viewDidLoad() {
         
@@ -45,6 +42,7 @@ class homeScreenViewController: UIViewController {
         goBlueLabel.textColor = UIColor.whiteColor()
         goBlueLabel.font = UIFont(name: "Futura-Medium", size: 80)
         self.view.addSubview(goBlueLabel)
+    
         
         
         
@@ -71,7 +69,11 @@ class homeScreenViewController: UIViewController {
         signupBtn.setTitle("Sign Up", forState: UIControlState.Normal)
         signupBtn.addGestureRecognizer(signUpTap)
         self.view.addSubview(signupBtn)
+        
+        
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -83,6 +85,14 @@ class homeScreenViewController: UIViewController {
     }
     func loginHandleTap() {
         print("tap working")
+        for v in view.subviews{
+            if v is UILabel{
+                v.removeFromSuperview()
+            }
+            if v is UIButton{
+                v.removeFromSuperview()
+            }
+        }
         performSegueWithIdentifier("goToLogin", sender: nil)
         
     }

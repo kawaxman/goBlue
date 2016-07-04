@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76B95C4BD9E83A098754D446 /* Pods_goBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309E8267AD5A9C054DF531E7 /* Pods_goBlue.framework */; };
+		BF19BC0F1D2A852C00D5753C /* loginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19BC0E1D2A852C00D5753C /* loginNavigationController.swift */; };
 		BF97BF371D0DAB9000B4E632 /* CleanupMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */; };
 		BF97BF391D10810200B4E632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97BF381D10810200B4E632 /* AppDelegate.swift */; };
 		BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */; };
@@ -32,7 +33,7 @@
 		BFF1FAD21D26CBE40001470B /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAD11D26CBE40001470B /* homeScreenViewController.swift */; };
 		BFF1FAE51D2803A90001470B /* gifFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAE41D2803A90001470B /* gifFramework.swift */; };
 		BFF1FAEA1D289B6F0001470B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FAE91D289B6F0001470B /* loginViewController.swift */; };
-		BFF1FAF41D28B23C0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */; };
+		BFF1FAFA1D2A183D0001470B /* loginGoBlue.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFF1FAF91D2A183D0001470B /* loginGoBlue.gif */; };
 		BFF470881D16E651000FFEB9 /* slideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF470871D16E651000FFEB9 /* slideNavViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		309E8267AD5A9C054DF531E7 /* Pods_goBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2E2D161FBDD7BD3C30BDD2 /* Pods-goBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-goBlue/Pods-goBlue.release.xcconfig"; sourceTree = "<group>"; };
 		6B98A31C7C292A109C78E283 /* Pods-goBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goBlue/Pods-goBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		BF19BC0E1D2A852C00D5753C /* loginNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginNavigationController.swift; sourceTree = "<group>"; };
 		BF97BF361D0DAB9000B4E632 /* CleanupMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanupMapViewViewController.swift; sourceTree = "<group>"; };
 		BF97BF381D10810200B4E632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		BF97C07C1D11E3D700B4E632 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopoverViewController.swift; path = ../../PopoverViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 		BFF1FAD11D26CBE40001470B /* homeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
 		BFF1FAE41D2803A90001470B /* gifFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifFramework.swift; sourceTree = "<group>"; };
 		BFF1FAE91D289B6F0001470B /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGoBlue.gif; sourceTree = "<group>"; };
+		BFF1FAF91D2A183D0001470B /* loginGoBlue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loginGoBlue.gif; path = goBlue/loginGoBlue.gif; sourceTree = "<group>"; };
 		BFF470871D16E651000FFEB9 /* slideNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,18 +146,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF97BF741D1082A800B4E632 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BFB680BC1CFBE16100E68019 = {
 			isa = PBXGroup;
 			children = (
 				BFF1FACB1D260D540001470B /* goBlue.ttf */,
-				BFF1FAF31D28B23C0001470B /* loginGoBlue.gif */,
+				BFF1FAF91D2A183D0001470B /* loginGoBlue.gif */,
 				BF97C0801D11ECB400B4E632 /* Podfile */,
 				BFB680C71CFBE16100E68019 /* goBlue */,
 				BFB680DC1CFBE16100E68019 /* goBlueTests */,
@@ -179,12 +174,11 @@
 		BFB680C71CFBE16100E68019 /* goBlue */ = {
 			isa = PBXGroup;
 			children = (
+				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
 				BFF1FAE81D289B5E0001470B /* Login */,
 				BF97BF381D10810200B4E632 /* AppDelegate.swift */,
 				BFF1FAD01D26CBD90001470B /* Homescreen */,
 				BFD23BD31CFBE6D50062806B /* Mapbox.framework */,
-				BF97BF741D1082A800B4E632 /* Frameworks */,
-				BFB7A6571CFD33750002B92E /* SWRevealViewController */,
 				BFF1FAC01D24B0EA0001470B /* Cleanup */,
 				BFF1FAC11D24B1200001470B /* Local Areas */,
 				BFF1FAC21D24B1430001470B /* News */,
@@ -287,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				BFF1FAE91D289B6F0001470B /* loginViewController.swift */,
+				BF19BC0E1D2A852C00D5753C /* loginNavigationController.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -420,8 +415,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF1FAF41D28B23C0001470B /* loginGoBlue.gif in Resources */,
 				BFB680FB1CFBE19B00E68019 /* Main.storyboard in Resources */,
+				BFF1FAFA1D2A183D0001470B /* loginGoBlue.gif in Resources */,
 				BFB680D31CFBE16100E68019 /* LaunchScreen.storyboard in Resources */,
 				BF97C0811D11ECB400B4E632 /* Podfile in Resources */,
 				BFB680D01CFBE16100E68019 /* Assets.xcassets in Resources */,
@@ -510,6 +505,7 @@
 				BFF1FAB91D1F07100001470B /* profileViewController.swift in Sources */,
 				BFB680F91CFBE17D00E68019 /* NewsViewController.swift in Sources */,
 				BFD23BCD1CFBE5EB0062806B /* MapViewViewController.swift in Sources */,
+				BF19BC0F1D2A852C00D5753C /* loginNavigationController.swift in Sources */,
 				BFF1FACD1D26C9CD0001470B /* mapViewController.swift in Sources */,
 				BF97C07D1D11E3D700B4E632 /* PopoverViewController.swift in Sources */,
 				BFB7A65D1CFD38150002B92E /* cleanupViewController.swift in Sources */,
