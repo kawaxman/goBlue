@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCustomCell" id="gTV-IL-0wX" customClass="cleanupCollectionViewCell" customModule="goBlue" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="130"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dEb-0x-8Ep">
+                        <rect key="frame" x="8" y="36" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="HBf-JR-C8N"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cleanup Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aab-ge-dcs">
+                        <rect key="frame" x="8" y="10" width="221" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="2VM-eJ-eWT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" red="0.086274509799999996" green="0.24313725489999999" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i4-jO-F4e">
+                        <rect key="frame" x="104" y="35" width="168" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="GZW-Zg-nJo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpM-ZM-3tH">
+                        <rect key="frame" x="104" y="63" width="168" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Vcd-LV-FnI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="myCustomCell" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGy-YL-K6F">
+                        <rect key="frame" x="118" y="91" width="65" height="30"/>
+                        <accessibility key="accessibilityConfiguration" identifier="myCustomCell"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <state key="normal" title="More Info"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fGy-YL-K6F" secondAttribute="trailing" constant="97" id="1p7-Vp-23g"/>
+                <constraint firstItem="aab-ge-dcs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="CZX-w6-yoL"/>
+                <constraint firstItem="aab-ge-dcs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="D0Z-wN-dpO"/>
+                <constraint firstItem="5i4-jO-F4e" firstAttribute="top" secondItem="aab-ge-dcs" secondAttribute="bottom" constant="2" id="Etr-2S-VV0"/>
+                <constraint firstItem="fGy-YL-K6F" firstAttribute="top" secondItem="rpM-ZM-3tH" secondAttribute="bottom" constant="7" id="GDW-6X-V0Z"/>
+                <constraint firstItem="dEb-0x-8Ep" firstAttribute="top" secondItem="aab-ge-dcs" secondAttribute="bottom" constant="3" id="N0J-sQ-5li"/>
+                <constraint firstItem="rpM-ZM-3tH" firstAttribute="top" secondItem="5i4-jO-F4e" secondAttribute="bottom" constant="7" id="NwB-dr-FeZ"/>
+                <constraint firstAttribute="bottom" secondItem="fGy-YL-K6F" secondAttribute="bottom" constant="9" id="eaJ-kM-6tA"/>
+                <constraint firstItem="rpM-ZM-3tH" firstAttribute="leading" secondItem="5i4-jO-F4e" secondAttribute="leading" id="jiu-hM-OsR"/>
+                <constraint firstItem="5i4-jO-F4e" firstAttribute="leading" secondItem="dEb-0x-8Ep" secondAttribute="trailing" constant="16" id="n3n-ai-7hx"/>
+                <constraint firstAttribute="bottom" secondItem="dEb-0x-8Ep" secondAttribute="bottom" constant="14" id="skm-k8-oRX"/>
+                <constraint firstItem="5i4-jO-F4e" firstAttribute="trailing" secondItem="rpM-ZM-3tH" secondAttribute="trailing" id="tIU-w4-bME"/>
+                <constraint firstItem="rpM-ZM-3tH" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailingMargin" id="wjy-Vt-hAI"/>
+                <constraint firstItem="dEb-0x-8Ep" firstAttribute="leading" secondItem="aab-ge-dcs" secondAttribute="leading" id="yTI-gN-Dne"/>
+                <constraint firstItem="fGy-YL-K6F" firstAttribute="leading" secondItem="dEb-0x-8Ep" secondAttribute="trailing" constant="30" id="zLA-7I-bsU"/>
+            </constraints>
+            <size key="customSize" width="315" height="171"/>
+            <connections>
+                <outlet property="cellImage" destination="dEb-0x-8Ep" id="eoc-fg-tgb"/>
+                <outlet property="cellLabel" destination="aab-ge-dcs" id="9Kt-fg-zov"/>
+                <outlet property="dateLabel" destination="rpM-ZM-3tH" id="Mbb-av-4mo"/>
+                <outlet property="descriptionLabel" destination="5i4-jO-F4e" id="jzc-dz-2nA"/>
+                <outlet property="moreInfoButton" destination="fGy-YL-K6F" id="zPb-rg-Hja"/>
+            </connections>
+            <point key="canvasLocation" x="-73" y="200"/>
+        </collectionViewCell>
+    </objects>
+</document>

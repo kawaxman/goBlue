@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import Parse
 
 
 class loginViewController: UIViewController {
 
     @IBOutlet weak var loginTextField: UITextField!
 
-    @IBOutlet weak var signupTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
             
     @IBOutlet weak var blurredBackground: UIImageView!
     
    
      let blueColor = UIColor(red: 22/255, green: 62/255, blue: 123/255, alpha: 1)
+    
     
 
     
@@ -31,7 +33,11 @@ class loginViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+
+        
+        let loginButtonTap = UITapGestureRecognizer(target: self, action: Selector("loginButtonHandleTap"))
+        
+        
         
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Light)
         let blurView = UIVisualEffectView(effect: blurEffect)
@@ -46,11 +52,11 @@ class loginViewController: UIViewController {
         loginTextField.leftViewMode = UITextFieldViewMode.Always
         loginTextField.leftView = spacerView
         
-        signupTextField.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
-        signupTextField.layer.cornerRadius = 5
+        passwordTextField.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
+        passwordTextField.layer.cornerRadius = 5
         let spacerView1 = UIView(frame:CGRect(x:0, y:0, width:10, height:10))
-        signupTextField.leftViewMode = UITextFieldViewMode.Always
-        signupTextField.leftView = spacerView1
+        passwordTextField.leftViewMode = UITextFieldViewMode.Always
+        passwordTextField.leftView = spacerView1
         
         let loginBtn = UIButton(frame: CGRectMake(40, 200, 140, 40))
         loginBtn.center = CGPointMake(187.5, 520.0);// for center
@@ -60,10 +66,19 @@ class loginViewController: UIViewController {
         loginBtn.titleLabel!.font = UIFont(name: "Futura-Medium", size: 25)
         loginBtn.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         loginBtn.setTitle("login", forState: UIControlState.Normal)
+        loginBtn.addGestureRecognizer(loginButtonTap)
         self.view.addSubview(loginBtn)
         
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        super.viewDidAppear(true)
         
         
+        
+        
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -81,5 +96,24 @@ class loginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func loginButtonHandleTap(){
+
+        
+        PFUser.logInWithUsernameInBackground(loginTextField.text!, password: passwordTextField.text!) {
+            (user: PFUser?, error: NSError?) -> Void in
+            if user != nil {
+                print("successfully logged in")
+                let next = self.storyboard?.instantiateViewControllerWithIdentifier("rootView")
+                self.presentViewController(next!, animated: true, completion: nil)
+            } else {
+                self.loginTextField.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.7)
+                self.passwordTextField.backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.7)
+                print("Denied Login")
+            }
+    }
+        
+    
+    }
 
 }

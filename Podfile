@@ -7,4 +7,5 @@ target 'goBlue' do
     pod 'Alamofire', '~> 3.1.2'
     pod 'HanekeSwift'
     pod 'SwiftyJSON'
+    pod 'KTCenterFlowLayout'
 end

@@ -7,20 +7,42 @@
 //
 
 import UIKit
+import Parse
 
 class slideNavViewController: UIViewController {
 
     @IBOutlet weak var profileImageView: UIImageView!
     
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let user = PFUser.currentUser()
+        
 
         self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
         self.profileImageView.clipsToBounds = true
+        
+        
+        
+        
+    let userName = PFUser.currentUser()!["name"] as! String
+    nameLabel.text = userName
+    emailLabel.text = PFUser.currentUser()?.username
+        
+     
+        
+        
+        
+    
+        
+        
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,5 +58,6 @@ class slideNavViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }

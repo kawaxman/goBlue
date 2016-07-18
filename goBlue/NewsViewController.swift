@@ -79,7 +79,11 @@ class NewsViewController: UIViewController, UITableViewDataSource {
 //        }
     }
     
+    
+    
     //end news View Controller
+    @IBAction func returnToHomeScreen(segue: UIStoryboardSegue) {
+    }
         
     }
 

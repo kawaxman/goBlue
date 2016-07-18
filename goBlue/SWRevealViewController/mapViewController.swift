@@ -12,7 +12,16 @@ class mapViewController: UIViewController {
 
    
     @IBOutlet weak var menuButton: UIBarButtonItem!
-
+    
+    
+    var freshLaunch = true
+    override func viewWillAppear(animated: Bool) {
+        if freshLaunch == true {
+            freshLaunch = false
+            self.tabBarController!.selectedIndex = 2
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,6 +44,9 @@ class mapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func returnToHomeScreen(segue: UIStoryboardSegue) {
+    }
+
 
     /*
     // MARK: - Navigation
@@ -45,5 +57,4 @@ class mapViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.enableLocalDatastore()
+        
+        let configuration = ParseClientConfiguration{ (configuration) -> Void in
+            configuration.applicationId = "goBlue"
+            configuration.clientKey = "goBlue123456789" //master key
+            configuration.server = "http://goBlueapp.herokuapp.com/parse"
+        }
+        Parse.initializeWithConfiguration(configuration)
+        
         return true
     }
     
@@ -35,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+       
     }
     
     func applicationWillTerminate(application: UIApplication) {

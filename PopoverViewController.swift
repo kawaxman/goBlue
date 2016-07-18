@@ -12,9 +12,12 @@ class PopoverViewController: UIViewController{
     
     @IBOutlet weak var headerImage: UIImageView!
     
+    @IBOutlet weak var popoverText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        popoverText.text = "Test"
 
     }
 }
